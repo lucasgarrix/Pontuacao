@@ -8,9 +8,9 @@ public class Basquete_Robo {
         System.out.println("--Possíveis Pontos--");
     }
     public void PontLancamento(){
-        if(D.valor <= 800){
+        if(D.valor <= 400){
             System.out.println("1");
-        }else if(D.valor > 800 && D.valor <= 1400){
+        }else if(D.valor > 400 && D.valor <= 1000){
             System.out.println("2");
         }else{
             System.out.println("3");
